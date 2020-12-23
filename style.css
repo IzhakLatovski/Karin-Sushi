@@ -1,0 +1,182 @@
+:root {
+    --main-color: #7ed957;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+}
+
+section {
+    padding: 1rem;;
+}
+
+button {
+    margin: 2rem auto 0.3rem;
+}
+
+.section-colorful {
+    background-color: var(--main-color);
+}
+
+.section-title {
+    text-align: center;
+}
+
+#about {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.phone-button {
+    color: inherit;
+    text-decoration: none;
+}
+
+.phone-button:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Menu dots *********************************************************/
+
+table {
+	width: 90%;
+}
+
+td {
+	padding: 1em 0 0 0;
+	vertical-align: bottom;
+	background-image: radial-gradient(black 1px, white 0px);
+	background-size: 8px 8px;
+	background-repeat: repeat-x;
+	background-position: right bottom;
+}
+
+td:first-child {
+	text-align: right;
+}
+
+td:first-child span{
+	padding-left: 0.25em;
+}
+    
+td:last-child {
+    text-align: left;
+}
+
+td:last-child span{
+	padding-right: 0.25em;
+}
+
+td span {
+    background-color: #fff;
+    font-size: 1.2rem;
+}
+
+/*********************************************************************/
+
+#menu h6 {
+    margin: 0 0.7rem;
+}
+
+.bold-menu-header {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.noodles span {
+    font-size: 1rem;
+}
+
+
+
+#carouselExampleControls {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.carousel-arrow span {
+    background-color: var(--main-color);
+    padding: 1rem;
+}
+
+.news-date {
+    color: white;
+    font-size: 0.9rem;
+}
+
+.news-image {
+    border-radius: 5%;
+    width: 100%;
+}
+
+#reviews {
+    padding: 2rem;
+}
+
+.map-container {
+    height: 300px;
+}
+
+#map {
+    background-image:url('https://maps.googleapis.com/maps/api/staticmap?scale=1&size=1600x900&style=feature:poi.business|visibility:off&style=feature:water|visibility:simplified&style=feature:road|element:labels.icon|visibility:off&style=feature:road.highway|element:labels|saturation:-90|lightness:25&format=jpg&language=iw&region=IL&markers=color:0xddaa44|32.8572299,35.083777&zoom=16&client=google-presto&signature=KKKXlw_zOZZDkwTN75LZLIvHacc');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    transition: top 0.3s;
+  }
+  
+  .nav-item {
+    margin-left: 2rem;
+  }
+  
+  .regular-link {
+    font-size: 1.05rem;
+  }
+  
+  .nav-link:hover {
+    color: var(--main-color) !important;
+    transition: 1s;
+  }
+  
+  .navbar-brand {
+    padding: 0;
+    margin-left: 1rem;
+  }
+  
+  @keyframes logo-border {
+    30% {border-radius: 20%;}
+    50% {border-radius: 35%;}
+    70% {border-radius: 20%;}
+  }
+  
+  .nav-item-animation {
+    background-color: var(--main-color);
+    height: 1px;
+    visibility: hidden;
+  }
+  
+  .nav-line-animation {
+    visibility: visible;
+    display: block;
+    animation: nav-line-animation 1s;
+  }
+  
+  @keyframes nav-line-animation {
+    0% {width: 0;}
+    100% {width: 100%;}
+  }
